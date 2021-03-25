@@ -1,5 +1,5 @@
 {
-  "name": "burmllaa",
+  "name": "burmilla",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +12,7 @@
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.1",
     "web-vitals": "^1.0.1",
-    "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-cli": "^4.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "webpack-dev-server": "^3.11.2"
   }
 }
