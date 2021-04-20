@@ -1,27 +1,34 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "moduleResolution": "node",
-    "module": "commonjs",
+    "module": "esnext",
     "target": "es5",
-    "lib": ["es2015", "es6", "esnext", "dom"],
+    "lib": [
+      "es2015",
+      "es6",
+      "esnext",
+      "dom"
+    ],
     "allowJs": true,
     "sourceMap": true,
     "baseUrl": ".",
     "outDir": "dist",
-    "paths": {
-      "assets/*": ["src/assets/*"],
-      "api/*": ["src/data/api/*"],
-      "modules": ["src/data/modules/*"],
-      "components/*": ["/src/components/*"],
-      "hooks/*": ["src/hooks/*"],
-      "page/*": ["src/page/*"],
-      "styles/*": ["src/styles/*"],
-      "utils/*": ["src/utils/*"]
-    },
     "allowSyntheticDefaultImports": true,
-    "keyofStringsOnly": true
+    "keyofStringsOnly": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
-  "include": ["./src/**/*"],
-  "exclude": ["./node_modules/**/*"]
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*"
+  ]
 }
